@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML Academy: Smart Device</title>
+  <link href="css/min.css" rel="stylesheet">
+  <link rel="preload" href="fonts/RobotoCondensed-Regular.woff" as="font">
+</head>
+
+<body class="page-body">
+  <header class="page-header">
+    <a title="Логотип нашей компании" class="page-header__logo">
+      <svg class="page-header__logo-svg page-header__logo-svg--dt" width="202" height="52">
+        <use xlink:href="img/sprite_auto.svg#icon-logo-header"></use>
+      </svg>
+      <svg class="page-header__logo-svg page-header__logo-svg--mob" width="38" height="38">
+        <use xlink:href="img/sprite_auto.svg#icon-logo-header-mob"></use>
+      </svg>
+    </a>
+    <div class="page-header__wrapper">
+      <div class="page-header__wrapper-contacts">
+        <a class="page-header__wrapper-contacts-link page-header__wrapper-contacts-link--mail" href="mailto:info@sd.ru">info@sd.ru</a>
+        <a class="page-header__wrapper-contacts-link page-header__wrapper-contacts-link--phone" href="tel:84950005252">+7 (495) 000 52
+          52</a>
+      </div>
+      <a href="popup.html" class="page-header__wrapper-contacts-button">Заказать звонок</a>
+    </div>
+  </header>
+  <main class="page-main">
+    <section class="page-main__header">
+      <div class="page-main__header-description">
+        <h1>Печатные платы</h1>
+        <p>производство и монтаж, поставка комплектующих, блоков и модулей</p>
+        <a class="page-main__header-description-consultation page-main__header-description-consultation--dt" href="#consultation">Получить бесплатную консультацию</a>
+        <a class="page-main__header-description-consultation page-main__header-description-consultation--mob" href="#consultation">Бесплатная консультация</a>
+        <a href="#features" class="page-main__header-description-features">Скролл вниз</a>
+      </div>
+    </section>
+    <section class="page-main__features" id="features">
+      <h2 class="visually-hidden">Наши преимущества</h2>
+      <ul>
+        <li class="page-main__features-item">
+          <h3 class="page-main__features-item-header page-main__features-item-header--timing">Оперативные сроки</h3>
+          <p>Усовершенствованная логистическая система позволяет нам просчитывать стоимость, производить и доставлять
+            заказы плат и комплектующих в самые короткие сроки</p>
+        </li>
+        <li class="page-main__features-item">
+          <h3 class="page-main__features-item-header page-main__features-item-header--supplier">Крупные поставщики</h3>
+          <p>Нашими поставщиками являются такие крупные мировые компании как: OSRAM, CREE, HOLGLITRONIC, REFOND.
+            Сотрудничество с такими компаниями обеспичивает хорошее качество нашей продукции.</p>
+        </li>
+        <li class="page-main__features-item">
+          <h3 class="page-main__features-item-header page-main__features-item-header--confidentiality">Полная
+            конфиденциальность</h3>
+          <p>По желанию клиента мы обеспечиваем полную конфеденциальность.</p>
+        </li>
+        <li class="page-main__features-item">
+          <h3 class="page-main__features-item-header page-main__features-item-header--cost">Персонализация стоимости
+          </h3>
+          <p>Мы подбираем определенную фабрику, поставщиков, вид доставки, чтобы установить ту цену, которая Вас
+            устраивает.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="page-main__about">
+      <h2>О компании</h2>
+      <p>Мы поставляем электронные комплектующие, производим печатные платы и предоставляем мировые технологии с 1997
+        года. Выполняем срочные заказы и пилотные образцы до 10 дней.</p>
+      <p>Наши поставщики - мировые производители электронных компонентов: OSRAM, CREE, HOLGLITRONIC, REFOND. Печатные
+        платы и комплектующие Service Devices применяются на предприятиях Российских Железных Дорог<span class="page-main__about-split">..</span><span>(РЖД), РоссАвтоПрома
+          (ВАЗ, АвтоГАЗ), МинАтома, СпецМедТехники. Среди наших клиентов крупнейшие Производители светотехники
+          России.</span></p>
+      <a href="#">Подробнее</a>
+    </section>
+    <section class="page-main__products">
+      <h2>Service Device предлагает следующие товары и услуги</h2>
+      <ul>
+        <li class="page-main__products-item page-main__products-item--production">
+          <a href="#">
+            <h3>Производство печатных плат</h3>
+            <picture>
+              <!-- 1х: 290px; 2x: 580px -->
+              <source type="image/webp" media="(max-width: 767px)" srcset="img/production-mob.webp 1x, img/production-mob@2x.webp 2x">
+              <source type="image/jpeg" media="(max-width: 767px)" srcset="img/production-mob.jpg 1x, img/production-mob@2x.jpg 2x">
+              <!-- 1х: 715px; 2x: 1430px -->
+              <source media="(max-width: 1023px)" srcset="img/production-tab.webp 1x, img/production-tab@2x.webp 2x">
+              <source type="image/jpeg" media="(max-width: 1023px)" srcset="img/production-tab.jpg 1x, img/production-tab@2x.jpg 2x">
+              <!-- 1х: 370px; 2x: 740px -->
+              <img class="page-main__products-item-img" src="img/production-dt.jpg" srcset="img/production-dt@2x.jpg 2x" width="370" height="620" alt="Наша продукция"></picture>
+          </a>
+        </li>
+        <li class="page-main__products-item page-main__products-item--installation">
+          <a href="#">
+            <h3>Монтаж печатных плат</h3>
+            <picture>
+              <!-- 1х: 290px; 2x: 580px -->
+              <source type="image/webp" media="(max-width: 767px)" srcset="img/installation-mob.webp 1x, img/installation-mob@2x.webp 2x">
+              <source type="image/jpeg" media="(max-width: 767px)" srcset="img/installation-mob.jpg 1x, img/installation-mob@2x.jpg 2x">
+              <!-- 1х: 715px; 2x: 1430px -->
+              <source media="(max-width: 1023px)" srcset="img/installation-tab.webp 1x, img/installation-tab@2x.webp 2x">
+              <source type="image/jpeg" media="(max-width: 1023px)" srcset="img/installation-tab.jpg 1x, img/installation-tab@2x.jpg 2x">
+              <!-- 1х: 370px; 2x: 740px -->
+              <img class="page-main__products-item-img" src="img/installation-dt.jpg" srcset="img/installation-dt@2x.jpg 2x" width="370" height="620" alt="Наша продукция"></picture>
+          </a>
+        </li>
+        <li class="page-main__products-item page-main__products-item--accessories">
+          <a href="#">
+            <h3>Комплектующие для светотехники</h3>
+            <picture>
+              <!-- 1х: 290px; 2x: 580px -->
+              <source type="image/webp" media="(max-width: 767px)" srcset="img/accessories-mob.webp 1x, img/accessories-mob@2x.webp 2x">
+              <source type="image/jpeg" media="(max-width: 767px)" srcset="img/accessories-mob.jpg 1x, img/accessories-mob@2x.jpg 2x">
+              <!-- 1х: 715px; 2x: 1430px -->
+              <source media="(max-width: 1023px)" srcset="img/accessories-tab.webp 1x, img/accessories-tab@2x.webp 2x">
+              <!-- 1х: 370px; 2x: 740px -->
+              <img class="page-main__products-item-img" src="img/accessories-dt.jpg" srcset="img/accessories-dt@2x.jpg 2x" width="370" height="620" alt="Наша продукция"></picture>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="page-main__questions" id="consultation">
+      <div class="page-main__questions-wrapper">
+        <h2>Остались вопросы? Задайте их нам!</h2>
+        <p>Мы проконсультируем Вас бесплатно</p>
+        <form class="page-main__questions-wrapper-form" action="https://echo.htmlacademy.ru" method="post" autocomplete="off">
+          <fieldset class="page-main__questions-wrapper-form-inputs">
+            <input type="text" id="name" name="name" placeholder="Имя" required="">
+            <label class="visually-hidden" for="name">Введите Ваше Имя</label>
+            <input type="tel" id="tel" name="tel" pattern="+[0-9]{10}" placeholder="Телефон" required="">
+            <label class="visually-hidden" for="tel">Введите Ваш номер телефона</label>
+            <textarea name="question" id="question" rows="7" placeholder="Ваш вопрос"></textarea>
+            <label class="visually-hidden" for="question">Введите Ваш вопрос</label>
+          </fieldset>
+          <div class="page-main__questions-wrapper-form-agreement">
+            <button class="page-main__questions-wrapper-form-agreement-button" type="submit">Задать вопрос</button>
+            <input type="checkbox" name="agreement" id="agreement" value="agreement" checked="" required="">
+            <span class="page-main__questions-wrapper-form-agreement-checkbox"></span>
+            <label for="agreement">Я согласен на обработку персональных данных</label>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__menu">
+      <h2 class="visually-hidden">Меню и контакты</h2>
+      <div class="page-footer__social-logo">
+        <a title="Логотип нашей компании" href="#">
+          <svg class="page-footer__social-logo-svg" width="202" height="52">
+            <use xlink:href="img/sprite_auto.svg#icon-logo-footer"></use>
+          </svg>
+        </a>
+        <p class="page-footer__social-logo-rights">1999-2018 SD Service Devices</p>
+        <ul>
+          <li class="page-footer__social-logo-item page-footer__social-logo-item--fb">
+            <a title="Наша страничка в Facebook" href="#"></a></li>
+          <li class="page-footer__social-logo-item page-footer__social-logo-item--ok">
+            <a title="Наша страничка в Одноклассниках" href="#"></a></li>
+          <li class="page-footer__social-logo-item page-footer__social-logo-item--vk">
+            <a title="Наша страничка в Вконтакте" href="#"></a></li>
+        </ul>
+      </div>
+      <nav class="page-footer__nav">
+        <h3>Разделы сайта</h3>
+        <div class="page-footer__nav-lists page-footer__nav-lists--mob page-footer__nav-lists--opened">
+          <ul>
+            <li class="page-footer__nav-lists-item"><a class="page-footer__nav-lists-link" href="#">О компании</a></li>
+            <li class="page-footer__nav-lists-item"><a class="page-footer__nav-lists-link" href="#">Продукты</a>
+            </li>
+            <li class="page-footer__nav-lists-item"><a class="page-footer__nav-lists-link" href="#">Производство
+                печатных плат</a>
+            </li>
+            <li class="page-footer__nav-lists-item"><a class="page-footer__nav-lists-link" href="#">Монтаж печатных
+                плат</a></li>
+          </ul>
+          <ul>
+            <li class="page-footer__nav-lists-item"><a class="page-footer__nav-lists-link" href="#">Комплектующие</a>
+            </li>
+            <li class="page-footer__nav-lists-item"><a class="page-footer__nav-lists-link" href="#">Доставка</a>
+            </li>
+            <li class="page-footer__nav-lists-item"><a class="page-footer__nav-lists-link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <button type="button" class="page-footer__nav-lists-menu page-footer__nav-lists-menu--opened"></button>
+      </nav>
+      <div class="page-footer__address page-footer__address--mob page-footer__address--opened">
+        <h3>Наш офис</h3>
+        <ul>
+          <li class="page-footer__address-item">г. Мытищи, Олимпийский проспект, д.10</li>
+          <li class="page-footer__address-item"><a href="tel:84955894050">+7 (495) 589-40-50</a></li>
+          <li class="page-footer__address-item"><a href="tel:89250038767">+7 (925) 003-87-67</a></li>
+          <li class="page-footer__address-item"><a href="tel:892692608079">+7 (926) 926-080-79</a></li>
+        </ul>
+        <button type="button" class="page-footer__address-menu page-footer__address-menu--opened"></button>
+      </div>
+    </div>
+    <div class="page-footer__information">
+      <ul>
+        <li class="page-footer__information-rights-item page-footer__information-rights-item--dt">Все права защищены
+        </li>
+        <li class="page-footer__information-rights-item page-footer__information-rights-item--dt">1999-2018 SD Service
+          Devices</li>
+        <li class="page-footer__information-rights-item"><a href="#">Условия конфиденциальности</a></li>
+      </ul>
+      <p>Developed by wow studio</p>
+    </div>
+  </footer>
+  <section class="popup">
+    <div class="popup-wrapper">
+      <h3>Закажите звонок</h3>
+      <p>Оставьте контакты, мы проконсультируем вас бесплатно в удобное время</p>
+      <form class="popup-wrapper__form" action="https://echo.htmlacademy.ru" method="post" autocomplete="off">
+        <button class="popup-wrapper__close-button" type="button" title="Закрыть модальное окно" tabindex="6"></button>
+        <input type="text" id="name-popup" name="name-popup" placeholder="Имя" autofocus="" tabindex="1" required="">
+        <label class="visually-hidden" for="name-popup">Введите Ваше Имя</label>
+        <input type="tel" id="tel-popup" name="tel-popup" pattern="+[0-9]{10}" placeholder="Телефон" required="" tabindex="2">
+        <label class="visually-hidden" for="tel-popup">Введите Ваш номер телефона</label>
+        <textarea name="question-popup" id="question-popup" rows="7" placeholder="Ваш вопрос" tabindex="3"></textarea>
+        <label class="visually-hidden" for="question-popup">Введите Ваш вопрос</label>
+        <button class="popup-wrapper__form-button" type="submit" tabindex="4">Отправить</button>
+        <div class="popup-wrapper__form-agreement">
+          <input type="checkbox" name="agreement-popup" id="agreement-popup" value="agreement-popup" checked="" required="" tabindex="5">
+          <span class="popup-wrapper__form-agreement-checkbox"></span>
+          <label for="agreement-popup">Я согласен на обработку персональных данных</label>
+        </div>
+      </form>
+    </div>
+  </section>
+  <script src="js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#tel").mask("+7(999)9999999");
+      $("#tel-popup").mask("+7(999)9999999");
+    });
+
+  </script>
+</body>
+
+</html>
